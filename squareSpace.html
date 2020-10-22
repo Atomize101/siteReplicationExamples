@@ -2,31 +2,90 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML CSS Exercise</title>
-    <style>
-        header {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-        }
-        header .link {
-            text-align: right;
-            text-decoration: none;
-            color: black;
-            font-size: 14px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div>S</div>
-        <a href="#" class="link">I'M JUST BROWSING</a>
-        <h1>What's your site about?</h1>
-    </header>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML CSS Exercise</title>
+		<style>
+			body {
+				height: 800px;
+			}
+			header {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-top: 10px;
+				margin-bottom: 30px;
+			}
+			header .link {
+				text-align: right;
+				text-decoration: none;
+				color: black;
+				font-size: 14px;
+			}
+
+			h1 {
+				font-size: 24px;
+				font-weight: 500;
+				margin-bottom: -6px;
+			}
+
+			.content {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+
+			button {
+				padding: 10px;
+				background-color: rgba(0, 0, 0, 0);
+				border: 1px solid #aaa;
+				color: #aaa;
+				transition: color 0.5s;
+				cursor: pointer;
+				outline: none;
+			}
+
+			button:hover {
+				color: black;
+			}
+			button:focus {
+				border: 1px solid black;
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div>S</div>
+			<a href="#" class="link">I'M JUST BROWSING</a>
+		</header>
+		<div class="content">
+			<h1>What's your site about?</h1>
+			<p>This will help us find you some starting ideas and examples.</p>
+			<button>Fashion</button>
+			<button>Music</button>
+			<button>Education</button>
+			<button>Politics</button>
+			<button>Technology</button>
+			<button>Magazine</button>
+			<button>Personal & CV</button>
+			<button>Travel</button>
+			<button>Consulting</button>
+			<button>Non-Profit</button>
+			<button>Food</button>
+			<button>Fitness</button>
+			<button>Health & Beauty</button>
+			<button>Photography</button>
+			<button>Art</button>
+			<button>Fashion</button>
+			<button>Design</button>
+			<button>Restaurants</button>
+			<button>Jewelry</button>
+			<button>Marketing</button>
+			<button>Interior</button>
+			<button>Design</button>
+			<button>Gaming</button>
+		</div>
+	</body>
 </html>
