@@ -38,12 +38,17 @@
 
 			button {
 				padding: 10px;
+				padding-left: 14px;
+				padding-right: 14px;
 				background-color: rgba(0, 0, 0, 0);
 				border: 1px solid #aaa;
 				color: #aaa;
 				transition: color 0.5s;
 				cursor: pointer;
 				outline: none;
+				margin-bottom: 12px;
+				margin-right: 10px;
+				font-size: 14px;
 			}
 
 			button:hover {
@@ -52,6 +57,23 @@
 			button:focus {
 				border: 1px solid black;
 				color: black;
+			}
+			label {
+				display: block;
+				color: #777;
+			}
+			.buttons {
+				margin-bottom: 20px;
+			}
+			input {
+				margin-top: 10px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+				padding-left: 8px;
+				font-size: 16px;
+				width: 300px;
+				border: none;
+				outline: none;
 			}
 		</style>
 	</head>
@@ -63,29 +85,35 @@
 		<div class="content">
 			<h1>What's your site about?</h1>
 			<p>This will help us find you some starting ideas and examples.</p>
-			<button>Fashion</button>
-			<button>Music</button>
-			<button>Education</button>
-			<button>Politics</button>
-			<button>Technology</button>
-			<button>Magazine</button>
-			<button>Personal & CV</button>
-			<button>Travel</button>
-			<button>Consulting</button>
-			<button>Non-Profit</button>
-			<button>Food</button>
-			<button>Fitness</button>
-			<button>Health & Beauty</button>
-			<button>Photography</button>
-			<button>Art</button>
-			<button>Fashion</button>
-			<button>Design</button>
-			<button>Restaurants</button>
-			<button>Jewelry</button>
-			<button>Marketing</button>
-			<button>Interior</button>
-			<button>Design</button>
-			<button>Gaming</button>
+
+			<div class="buttons">
+				<button>Fashion</button>
+				<button>Music</button>
+				<button>Education</button>
+				<button>Politics</button>
+				<button>Technology</button>
+				<button>Magazine</button>
+				<button>Personal & CV</button>
+				<button>Travel</button>
+				<button>Consulting</button>
+				<button>Non-Profit</button>
+				<button>Food</button>
+				<button>Fitness</button>
+				<button>Health & Beauty</button>
+				<button>Photography</button>
+				<button>Art</button>
+				<button>Fashion</button>
+				<button>Design</button>
+				<button>Restaurants</button>
+				<button>Jewelry</button>
+				<button>Marketing</button>
+				<button>Interior</button>
+				<button>Design</button>
+				<button>Gaming</button>
+			</div>
+
+			<label for="#">Don't see what you're looking for?</label>
+			<input placeholder="Describe your site..." />
 		</div>
 	</body>
 </html>
